@@ -14,18 +14,18 @@ def start():
 
             output = "".join(boxes)
 
-            print(f"eiyo nigga, which boxes the hottest girl in this brothel hiding, if you're right she's yours👇\n\n{output_empty_boxes}\n")
+            print(f"eiyo nigga, which box is the hottest girl in this brothel hiding, if you're right she's yours👇\n\n{output_empty_boxes}\n")
 
             userchoice = int(input ("BOX [1 / 2 / 3 / 4] ?  :"))
 
             if userchoice == bitch:
-                  print(f"{output}\n you're right, go fvck her harder😈")
+                  print(f"{output}\n you're right, having fun with her")
             else:
-                  print(f"you're wrong👎! that bitch in the box {bitch}\n {output}")
+                  print(f"wrong👎! that bitch in the box {bitch}\n {output}")
                   
             play_again = input("\n\n wanna do it again? [yes/no]: ")
             if play_again == "no":
-                  print("okay game over, fvck off pussy!")
+                  print("okay game over, fvck off pussy")
                   main.menu()
 
 if __name__=='__main__':
